@@ -1,0 +1,31 @@
+# AI client (excluded per request)
+internal/ai/
+
+# Harness tooling (excluded per request)
+cmd/harness/
+
+# Local database (contains your match history)
+*.db
+arena_tail.db
+
+# Logs
+test-logs/
+*.log
+
+# Stray nested copy of the project
+home/
+
+# Backup files
+*.bak
+
+# Stray editor/temp variants
+*.g_bad
+*.g_org
+
+# Binary / build output
+/arena-tail
+*.exe
+
+# Editor / OS cruft
+.vscode/
+.DS_Store
